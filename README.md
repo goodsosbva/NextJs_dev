@@ -1,8 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +9,29 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 무엇을 학습했는지?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- 타입스크립트 
+  - 타입스크립트 기초 지식
+  - 타입 정의
+  - 기본적인 타입의 기능
+  - 실제 개발 시 중요한 타입
+  - 타입스크립트 테크닉(옵셔널 체이닝, 논-널 어설션, 타입 가드, keyof, 등...)
+    
+- Nextjs
+  - Next.js 랜덩링 방법과 개념 (SSG, CSR, SSR, ISR)
+  - 주요 기능 - 링크, 이미지 표시, api라우터, 환경변수/구성
 
-## Learn More
+- 아토믹 디자인 
+  - 아토믹 디자인 개념
+  - 아톰, 몰리큘, 오거니즘, 탬플릿, 페이지
+ 
+- 스타일 컴포넌트
 
-To learn more about Next.js, take a look at the following resources:
+- 스토리북 사용
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 단위 테스트 개념과 사용 방법
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
